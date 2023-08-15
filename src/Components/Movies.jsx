@@ -2,7 +2,7 @@ import React from 'react'
 
 const Movies = () => {
   return (
-    <div>UNDER PROCESS ↺</div>
+    <div className=' bg-black text-white'>Movies UNDER PROCESS ↺</div>
   )
 }
 

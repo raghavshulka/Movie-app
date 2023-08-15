@@ -7,6 +7,7 @@ import My_List from "./Components/My_List";
 import Tv_Shows from "./Components/Tv_Shows";
 import Home from "./Components/Home";
 import Footer from "./Components/Footer";
+import Movies from "./Components/Movies";
 const App = () => {
   return (
     <div>
@@ -18,6 +19,8 @@ const App = () => {
           <Route path="/Tv_Shows" element={<Tv_Shows />} />
           <Route path="/My_List" element={<My_List />} />
           <Route path="/Recently_Added" element={<Recently_Added />} />
+          <Route path="/Movies" element={<Movies />} />
+
         </Routes>
        <Footer/>
       </Router>
