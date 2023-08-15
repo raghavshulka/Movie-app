@@ -2,7 +2,7 @@ import React from 'react'
 
 const My_List = () => {
   return (
-    <div>My_List</div>
+    <div className=' bg-black text-white'>My List UNDER PROCESS ↺</div>
   )
 }
 

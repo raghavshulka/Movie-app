@@ -2,7 +2,9 @@ import React from 'react'
 
 const Recently_Added = () => {
   return (
-    <div>Recently_Added</div>
+    <div className=' bg-black text-white'>Recently AddedUNDER PROCESS ↺
+
+    </div>
   )
 }
 

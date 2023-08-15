@@ -2,7 +2,7 @@ import React from 'react'
 
 const Tv_Shows = () => {
   return (
-    <div>Tv_Shows</div>
+    <div className=' bg-black text-white'>Tv Shows UNDER PROCESS ↺</div>
   )
 }
 

@@ -2,8 +2,8 @@ import React from 'react'
 
 const Movies = () => {
   return (
-    <div>Movies</div>
+    <div className=' bg-black text-white'>Movies UNDER PROCESS ↺</div>
   )
 }
 
-export default Movies
+export default Movies 
