@@ -78,25 +78,27 @@ const Home = () => {
   return (
     <section>
       {popularMovies.length > 3 && popularMovies[6] && (
-    <div className="bg-no-repeat h-[600px] relative bg-black text-cyan-700">
+    <div className="bg-no-repeat  h-[600px] relative bg-black text-cyan-700">
       <img
         className="w-[100%] object-cover h-[100%] absolute opacity-50"
         src={`${imgUrl}/${popularMovies[6].poster_path}`}
         
       />
-      <h1 className="text-white font-medium p-6 mt-[320px] text-5xl absolute">
+      <h1 className="text-white font-medium md:p-6 mt-[320px] text-4xl md:text-5xl absolute">
         {popularMovies[6].original_title}
       </h1>
-      <h1 className="font-light text-white absolute p-6 mt-[400px]">
+      <h1 className="  font-light  md:h-max md:w-[50%] text-white absolute p-2 md:p-6 mt-[370px] md:mt-[405px]">
         {popularMovies[6].overview}
       </h1>
 
-      <button className=" absolute ml-[100px] mt-[500px] bg-white text-black text-lg font-semibold py-2 px-11 rounded-full shadow-lg hover:bg-red-600 transition duration-300">
+      <div className=" md:p-1 p-4" >
+      <button className=" absolute md:ml-[100px] mt-[500px] bg-white text-black text-lg font-semibold py-2 px-11 rounded-full shadow-lg hover:bg-red-600 transition duration-300">
       Play 
     </button>
-    <button className=" absolute ml-[250px] mt-[500px] bg-white text-black text-lg font-semibold py-2 px-6 rounded-full shadow-lg hover:bg-gray-400 transition duration-300">
+    <button className=" hidden md:flex absolute ml-[150px]  md:ml-[250px] mt-[500px] bg-white text-black text-lg font-semibold py-2 px-6 rounded-full shadow-lg hover:bg-gray-400 transition duration-300">
       My List +
     </button>
+      </div>
     </div>
     
   )}
